@@ -112,17 +112,17 @@ button:hover {
 
 @keyframes glow {
     from {
-        text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+        text-shadow: 0 0 10px rgba(122, 253, 253, 0.7);
     }
     to {
-        text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+        text-shadow: 0 0 20px rgb(130, 218, 230);
     }
 }
 
 /* Dark mode styles for the timer */
 .dark-mode #timer {
     color: #ffeb3b;
-    text-shadow: 0 0 10px rgba(255, 235, 59, 0.7);
+    text-shadow: 0 0 10px rgba(243, 243, 239, 0.7);
     animation: dark-glow 1s ease-in-out infinite alternate;
 }
 
