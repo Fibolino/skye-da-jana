@@ -56,3 +56,45 @@ button:hover {
 #save-el {
     font-weight: bold;
 }
+
+/* Dark mode styles */
+.dark-mode {
+    background: linear-gradient(to right, #000000, #434343);
+    color: white;
+}
+
+.dark-mode .container {
+    background: #333333;
+    border-color: #ffffff;
+}
+
+/* Keyframe animations for text elements */
+@keyframes text-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1, h2, p {
+    animation: text-fade-in 1s ease-in-out;
+}
+
+/* Keyframe animations for button hover effects */
+@keyframes button-hover {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+button:hover {
+    animation: button-hover 0.3s ease-in-out;
+}

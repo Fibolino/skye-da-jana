@@ -19,3 +19,7 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
