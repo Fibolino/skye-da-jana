@@ -122,7 +122,7 @@ button:hover {
 /* Dark mode styles for the timer */
 .dark-mode #timer {
     color: #ffeb3b;
-    text-shadow: 0 0 10px rgba(243, 243, 239, 0.7);
+    text-shadow: 0 0 10px rgba(113, 245, 245, 0.897);
     animation: dark-glow 1s ease-in-out infinite alternate;
 }
 
